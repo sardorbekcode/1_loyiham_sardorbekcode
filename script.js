@@ -17,21 +17,6 @@ window.addEventListener('keydown', (e) => {
     ${e.code}
     <small>event.code</small>
     </div>
-
-    <div class="key">
-    ${e.altKey}
-    <small>altKey</small>
-    </div>
-
-    <div class="key">
-    ${e.shiftKey}
-    <small>shiftKey</small>
-    </div>
-
-    <div class="key">
-    ${e.ctrlKey}
-    <small>ctrlKey</small>
-    </div>
     `
     console.log(e);
     
